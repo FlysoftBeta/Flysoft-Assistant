@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --theme-1: rgb(136, 239, 255);
+    --theme-2: rgb(122, 195, 240);
+    --layer-bg: rgba(255, 255, 255, 0.8);
+    --layer-blur: blur(20px);
+    --message-bg: rgb(235, 235, 235);
+    --message-highlight-bg: linear-gradient(135deg, var(--theme-1), var(--theme-2));
+    --message-list-bg: rgb(250, 250, 250);
+}
+
+:root.dark {
+    --theme-1: rgb(9, 154, 222);
+    --theme-2: rgb(16, 84, 173);
+}
